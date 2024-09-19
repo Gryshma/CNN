@@ -6,7 +6,7 @@ import tensorflow as tf
 
 
 def load_model():
-     model = tf.keras.models.load_model('CNN/tumor_detection/results/model/cnn_tumor.h5')
+     model = tf.keras.models.load_model(r'CNN/tumor_detection/results/model/cnn_tumor.h5')
     return model
 
 model = load_model()
