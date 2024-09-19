@@ -8,4 +8,7 @@ nltk
 pytest
 tensorflow
 matplotlib
+streamlit==1.25.0
+tensorflow==2.12.0
+numpy
 Pillow
